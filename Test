@@ -1,0 +1,47 @@
+-- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [1ts] 7 4 [4d] D 4 g 4 D d 
+D d s [E1d] 1 [qia] 
+[Y1tos] 1 1 1 [id] [YD] [1yg] [17] [Yh] [yg] 
+[1YD] [1id] [os] [1rid] [1t] [ya] i 
+[1os] 1 [Pd] [sOD] [P1dg] [1O] [osD] [id] 
+[1toD] [1s] [Pyd] [Yps] [P1id] [1y] E g 
+[W1h] [1tO] [YPg] [sD] [EP1d] [1y] [iP] 
+[%D1shl] [%D1shl] [1hDZ] [(W1dgz] 1 [1d%PJ] 7 [^D7shl] 7 [ED7qsl] [1h^DZ] [^1dgz] 1 [1dgEPJ] q [^g] [4h] [^H] J 
+[18shDJ] [@1ws] [1tD] [18D] [1wd] [1tP] [13qP] [134wo] [18P] [1ws] [13t] [18o] [1wP] [Y1s] [1q] [13wo] o 
+[%5s] [%5ws] [t%D] [8%D] [%wd] [25y%P] [3q%P] [%wo] [%8] [%w] [%t] [%58] [%5w] [@(] [239] [$^o] 
+[18s] [145w] [15tD] [138D] [$15wd] [14y$P] [1q$P] [15wo] [18P] [1ws] [14t] [18o] [1wP] [Y1s] [15q] [1wo] 
+[%s] [%w] [t%D] [%8] [%5wd] [%4y] [q%P] c [%4wov] c [8%Z] c [%3wz] Z [%5tl] z [8%J] l [4w%H] J [%Yh] H [%4qh] [%woh] 
+[345qisgl] [4wisl] [4tDZ] [48i@DZ] [@4widz] [4yi@PJ] [5q@PJ] [4wih] [5og^PJ] [^5wosgl] [^t] [^58oh] [oh] [5wo^PJ] [^Y5osl] [^q] [^5woh] 
+[@(5osl] [@(5wo] [5t@(DZ] [58o@(DZ] [@(5wodz] [5to@(PJ] [q@(PJ] [@(5woh] [%OPJ] [%Owsl] t [%O48oh] [w%OPJ] [%YOsl] q [w%Y] 
+[249ti] [29W] [29t] [29] [29W] [29yo] [29q] [3wO] [29iP] [239W] [9tO] [239yo] [29W] [29y] [29qi] [2wyo] 
+[58] [5w] [35t] [58os] [5w] [5ya] [5qo] [wy] [57r] [^E] [7r] [29wy] [wo] [5rya] [9wts] [5ra] 
+[6etup] [0p] [ets] [0f] [@6d] [0s] [eta] [0oz] [4tip] 8 [qe] [8o] [4to] 8 [qe] 8 
+[5oah] [9h] [!wrh] [9ah] [5lz] [9g] [wrf] [9d] [8od] [wof] [tu] [wd] [7oaf] [wj] [ryoah] w 
+[4ig] [4et] [ipg] [8qipg] [4et] [ipg] [8qetipg] [4rj] [ipg] [8qetipg] 4 [$IG] [$ey] [IPG] [9QIPG] [eyj$Z] [IPG] [9eyQIPG] [$t] [IPG] [9eyQIPG] [$j] 
+[5oh] [5ry] [oah] [9woah] [5ry] [oah] [9wryoah] [5r] [oah] [9wyoah] [5i] [ri%WZ] % [W0u] [%ry] [0W] [%ry] [W0ru] % 
+[Ouafc] x z l k j [0ruH] g f d s a [30p] O i u [60ey] u t y [50wr] t w r 
+[48e] t [tY] e [380] 5 [269q] w e [3t] [59ry] t [5r] e 
+[18e] w [80] q [360] [30afOHV] [6etp] [ra] [80ets] [uf] [15yod] [ts] [79wo] [tis] 
+4 [ts] [8qeoh] [pj] [3uof] [80wh] [29upfg] [ep] [9qets] [uf] [5yod] [ts] [79wra] [4ts] 
+[6ryad] [46] [0e] [T3eupd] [T6eupf] 6 [6ep] 3 [46ra] [Y148ts] [48yd] [wtsYD] [38oh] [^P3ig] [134^YD] [EPg] [^yid] 
+% [%YD] [Wts] [%EP] [5woh] [45] [w(EPJ] [45] [4WOH] [4EP] [38qts] [34YD] [^3igh] [3^YD] [Eqyd] [^1ts] 
+[ts@H] [1@] [EPh] [^(] [@WO] [5wtosl] 5 [19wrak] 5 [D18sl] [18dz] [wtDZ] [18hv] [^Jgc] [^DZ] [qEPJ] [^dgz] 
+% [1%DZ] [(WHV] [%1l] [J5hv] [5E] [(w] 5 [O4ig] [4ts] [8qYD] [4oh] [^Pig] [^YD] [Eqyd] [^YD] 
+[18yid] [ts] [Yts] t w ( 9 8 5 [Y148ts] [Y38ts] [4woYD] [3id] [14y] [Y38tis] [4wtyEP] [^Y3ts] 
+4 [^3ts] [4qEYD] [^3yid] ^ [34^YD] [EPqig] [34^] [s%OH] [34%] [(Woh] [34%] [346ipg] 6 [3qeYD] 4 [6YD] 
+[3o^YD] [4^] [3qE] 3 [^yd] [37yod] [37] [wr] 7 [8oYD] [12348] [wt] [28] [P459ig] [9EP] [EP4qyd] s [39iD] g 
+[s(OH] ( [oh] [EY] [(ig] [EYPoh] [347!$(] [^EYPs] [@D] g [%oh] % [(W] [%g] [6ipg] [@36] [@qeig] [6YD] 
+[^yid] [^YD] [qdEPJ] [^sl] [7oah] [347] [34wr] [347] [%34osh] [34%] ( [34WYD] [%O34ig] ( [34W] ( [%34yd] [34%YOD] [@34] 
+[^34tis] [34yd] [34YD] [34ig] [34dPJ] [3468OH] [34YD] [34ig] [1348yod] [1348] w [^Y134tos] [^348tios] w [^34t] [^8y] w [tY] 8 
+[^4t] [^3y] q [EY] [@^E] q [$E4t] [@^y] q [EY] [^i] [%3osh] % ( [3WD] [%Oig] ( [3W] [%3d] ( [3WPDJ] [3%] 
+[^3osh] [^3d] q [3WD] [^Pig] q [Ws] [^d] q [3WPDJ] [^g] [18oshv] 8 w [tY] [348i] w [34t] [348y] w [34tY] [348] 
+[^34tis] [^34d] q [34ED] [^P34ig] q [E34s] [^34d] q [ED34oh] [^34g] [%34osh] [34%] ( [34WD] [%O34ig] ( [34W] [%34d] ( [34WPDJ] [34%] 
+[^34osh] q [^E34y] [34Y] q [^E34i] [34P] q [34@^EO] o [^3i] [3tos] [138oP] [Ps] [3sD] [P3d] [3oP] [Y3o] [3oP] 
+[3WP] [Os] v 3 3 3 c 3 3 B 5 v 0 e 
